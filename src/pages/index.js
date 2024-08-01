@@ -36,7 +36,7 @@ const Home = () => {
           waitlist.
         </p>
       </header>
-      <form onSubmit={handleSubmit} className="w-1/3 flex gap-4">
+      <form onSubmit={handleSubmit} className="w-full md:w-1/3 flex flex-col md:flex-row gap-4">
         <Input
           className="input-field"
           type="email"
