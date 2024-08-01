@@ -26,7 +26,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-stone-600 to-slate-900 min-h-screen flex flex-col justify-center items-center p-8">
+    <div className="bg-gradient-to-r from-gray-800 to-black min-h-screen flex flex-col justify-center items-center p-8">
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-white mb-4">
           Join Our Waitlist!
